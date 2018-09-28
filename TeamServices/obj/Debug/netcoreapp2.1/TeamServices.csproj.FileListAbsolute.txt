@@ -1,0 +1,14 @@
+c:\users\thygo\source\repos\TeamServices\TeamServices\bin\Debug\netcoreapp2.1\TeamServices.deps.json
+c:\users\thygo\source\repos\TeamServices\TeamServices\bin\Debug\netcoreapp2.1\TeamServices.runtimeconfig.json
+c:\users\thygo\source\repos\TeamServices\TeamServices\bin\Debug\netcoreapp2.1\TeamServices.runtimeconfig.dev.json
+c:\users\thygo\source\repos\TeamServices\TeamServices\bin\Debug\netcoreapp2.1\TeamServices.dll
+c:\users\thygo\source\repos\TeamServices\TeamServices\bin\Debug\netcoreapp2.1\TeamServices.pdb
+c:\users\thygo\source\repos\TeamServices\TeamServices\obj\Debug\netcoreapp2.1\TeamServices.csprojAssemblyReference.cache
+c:\users\thygo\source\repos\TeamServices\TeamServices\obj\Debug\netcoreapp2.1\TeamServices.csproj.CoreCompileInputs.cache
+c:\users\thygo\source\repos\TeamServices\TeamServices\obj\Debug\netcoreapp2.1\TeamServices.RazorAssemblyInfo.cache
+c:\users\thygo\source\repos\TeamServices\TeamServices\obj\Debug\netcoreapp2.1\TeamServices.RazorAssemblyInfo.cs
+c:\users\thygo\source\repos\TeamServices\TeamServices\obj\Debug\netcoreapp2.1\TeamServices.AssemblyInfoInputs.cache
+c:\users\thygo\source\repos\TeamServices\TeamServices\obj\Debug\netcoreapp2.1\TeamServices.AssemblyInfo.cs
+c:\users\thygo\source\repos\TeamServices\TeamServices\obj\Debug\netcoreapp2.1\TeamServices.RazorTargetAssemblyInfo.cache
+c:\users\thygo\source\repos\TeamServices\TeamServices\obj\Debug\netcoreapp2.1\TeamServices.dll
+c:\users\thygo\source\repos\TeamServices\TeamServices\obj\Debug\netcoreapp2.1\TeamServices.pdb
