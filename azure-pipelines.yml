@@ -14,8 +14,6 @@ steps:
     dotnet build --configuration $(buildConfiguration)
     displayName: 'dotnet build $(buildConfiguration)'
     
-- script:
-    name: integration-test-run
-    cwd: TeamServicesTest
-    code: |
-      dotnet test
+- script: |
+    dotnet test TeamServicesTest --configuration $(buildConfiguration) logger trx
+    displayName: 'dotnet teste $(buildConfiguration)'
