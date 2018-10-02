@@ -15,7 +15,7 @@ steps:
     displayName: 'dotnet build $(buildConfiguration)'
     dotnet test TeamServicesTest --configuration $(buildConfiguration) logger trx
     dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSAGINGDIRECTORY
-- task: PublishTestResults@3
+- task: PublishTestResults@2
   inputs:
     testRunner: VSTest
     testResultsFiles: '**/*.trx'
