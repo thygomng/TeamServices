@@ -1,0 +1,18 @@
+pool:
+ vmImage: 'Ubuntu 16.04'
+
+variables:
+ buildConfiguration: 'Release'
+ 
+ steps:
+- script: |
+    dotnet build --configuration $(buildConfiguration)
+    displayName: 'dotnet build $(buildConfiguration)'
+    dotnet test TeamServicesTest --configuration $(buildConfiguration) logger trx
+    dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSAGINGDIRECTORY
+- task: PublishTestResults@2
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
+  
+- task: PublishBuildArtifacts@1  
