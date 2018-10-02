@@ -14,4 +14,3 @@ steps:
     dotnet build --configuration $(buildConfiguration)
     displayName: 'dotnet build $(buildConfiguration)'
     dotnet test TeamServicesTest --configuration $(buildConfiguration) logger trx
-    
