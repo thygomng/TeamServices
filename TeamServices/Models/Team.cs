@@ -7,6 +7,8 @@ namespace TeamServices.Models
 {
     public class Team
     {
+        public Member member;
+
         public string Name { get; set; }
         public Guid ID { get; set; }
         public ICollection<Member> Members { get; set; }

@@ -4,32 +4,75 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TeamServices.Models;
+using TeamServices.Repository;
+using TeamServices.VO;
 
 namespace TeamServices.Controllers
 {
     public class TeamsController : Controller
     {
-        public List<Team> GetAllTeams()
+        private ITeamRepository _teamRepository;
+
+        public TeamsController(ITeamRepository teamRepository)
         {
-            Member goleiro = new Member();
-            goleiro.FirstName = "Tiboult";
-            goleiro.LastName = "Courtois";
+            _teamRepository = teamRepository;
+        }
 
-            Member negueba = new Member();
-            negueba.FirstName = "Vinicius";
-            negueba.LastName = "Junior";
+        [HttpGet("api/getAllTeams")]
+        public IActionResult GetAllTeams()
+        {
+            ICollection <Team> collectionTeams = _teamRepository.GetAllTeams();
+            if (collectionTeams == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Ok(collectionTeams);
+            }
+        }
 
-            List<Member> lista = new List<Member>();
-            lista.Add(goleiro);
-            lista.Add(negueba);
+        [HttpPost("api/addTeam")]
+        public IActionResult AddTeam([FromBody] TeamVO teamVO)
+        {
 
-            Team team = new Team();
-            team.Name = "Real Madrid";
-            team.Members = lista;
+            try
+            {
+                if (teamVO == null)
+                {
+                    return BadRequest();
+                }
 
-            List<Team> listaTeam = new List<Team>();
-            listaTeam.Add(team);
-            return listaTeam;
+                List<Member> listaMembros = new List<Member>();
+                foreach (MemberVO memberVO in teamVO.Members)
+                {
+                    Models.Member members = new Models.Member
+                    {
+                        FirstName = memberVO.FirstName,
+                        LastName = memberVO.LastName
+                    };
+
+                    listaMembros.Add(members);
+                }
+
+
+                Models.Team newTeam = new Models.Team
+                {
+                    Members = listaMembros,
+                    Name = teamVO.Name
+                };
+
+                _teamRepository.AddTeam(newTeam);
+
+                return Ok(newTeam);
+            }
+            catch (Exception e)
+            {
+                return BadRequest();
+                throw e;
+
+            }
+
         }
     }
 }
