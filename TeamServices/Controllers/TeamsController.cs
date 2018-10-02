@@ -18,7 +18,7 @@ namespace TeamServices.Controllers
             _teamRepository = teamRepository;
         }
 
-        [HttpGet("api/getAllTeams")]
+        [HttpGet("getAllTeams")]
         public IActionResult GetAllTeams()
         {
             ICollection <Team> collectionTeams = _teamRepository.GetAllTeams();
@@ -32,7 +32,7 @@ namespace TeamServices.Controllers
             }
         }
 
-        [HttpPost("api/addTeam")]
+        [HttpPost("addTeam")]
         public IActionResult AddTeam([FromBody] TeamVO teamVO)
         {
 

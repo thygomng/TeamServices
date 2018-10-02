@@ -1,7 +1,3 @@
-c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.csprojAssemblyReference.cache
-c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.csproj.CoreCompileInputs.cache
-c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.AssemblyInfoInputs.cache
-c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.AssemblyInfo.cs
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
@@ -9,9 +5,13 @@ c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\TeamServicesTest.runtimeconfig.json
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\TeamServicesTest.runtimeconfig.dev.json
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\TeamServicesTest.dll
+c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\TeamServicesTest.pdb
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\TeamServices.dll
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\TeamServices.pdb
+c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.csprojAssemblyReference.cache
+c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.csproj.CoreCompileInputs.cache
+c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.AssemblyInfoInputs.cache
+c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.AssemblyInfo.cs
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.csproj.CopyComplete
-c:\users\thygo\source\repos\TeamServices\TeamServicesTest\bin\Debug\netcoreapp2.1\TeamServicesTest.pdb
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.dll
 c:\users\thygo\source\repos\TeamServices\TeamServicesTest\obj\Debug\netcoreapp2.1\TeamServicesTest.pdb
