@@ -13,7 +13,3 @@ steps:
 - script: |
     dotnet build --configuration $(buildConfiguration)
     displayName: 'dotnet build $(buildConfiguration)'
-    
-- script: |
-    dotnet test TeamServicesTest --configuration $(buildConfiguration) logger trx
-    displayName: 'dotnet build $(buildConfiguration)'
